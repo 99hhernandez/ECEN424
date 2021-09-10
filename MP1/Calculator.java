@@ -11,9 +11,9 @@ public class Calculator {
 		//multiply
 	}
 	public void setname(String N){
-    //set obj name
-  }
+    		//set obj name
+  	}
 	public String getname(){
-    //get obj name
-  }
+    		//get obj name
+  	}
 }
