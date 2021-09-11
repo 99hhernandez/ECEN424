@@ -11,9 +11,9 @@ public class Calculator {
 		return A*B;
 	}
 	public void setname(String N){                      //set object name
-        this.name = N;
+        	this.name = N;
   	}
 	public String getname(){                            //get object name
-        return name;
+        	return name;
   	}
 }
