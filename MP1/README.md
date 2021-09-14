@@ -1,12 +1,26 @@
-## INTRODUCTION
-The purpose of this machine problem is to familiarize you with the basics of Java programming.
+# INTRODUCTION
+Please read all sections of this document before you begin coding. The purpose of this machine problem is to familiarize you with the basics of Java programming. You will code, compile and demo a simple calculatoron your laptop.
 
 
-## PROBLEM STATEMENT
+# PROBLEM STATEMENT
 In this assignment, implement a calculator that performs the operations of addition, subtraction and multiplication.
 
+### CLASSES
+You must create a class called Calculator.
 
-## OPERATION
+#### Fields
+
+> private String name
+
+#### Methods
+
+> public Float addition (Float A, Float B)\
+> public Float subtraction (Float A, Float B)\
+> public Float multiplication (Float A, Float B)\
+> public void setname (String N)\
+> public String getname( )\
+
+### OPERATION
 Under the main method, a new Calculator object called mycalc must be created. In your code, call the setname method to set your group number (eg. Group 5) as the name of mycalc. The system must print out the following line (using the getname method):
 
 ```
