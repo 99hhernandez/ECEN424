@@ -44,3 +44,9 @@ The [sum/difference/product] of [argument 1] and [argument 2] is [the answer]
 ```
 
 Put the whole code in a while loop, and terminate when Q is entered. Any other inputs should returnthe user to the Welcome message.
+
+# EVALUATION GUIDELINES
+
+1. Check the operation using test values.
+2. Check the code to verify class definitions.
+3. Enter arbitrary strings to test for error handling.
