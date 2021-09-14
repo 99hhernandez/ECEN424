@@ -18,7 +18,7 @@ You must create a class called Calculator.
 > public Float subtraction (Float A, Float B)\
 > public Float multiplication (Float A, Float B)\
 > public void setname (String N)\
-> public String getname( )\
+> public String getname( )
 
 ### OPERATION
 Under the main method, a new Calculator object called mycalc must be created. In your code, call the setname method to set your group number (eg. Group 5) as the name of mycalc. The system must print out the following line (using the getname method):
