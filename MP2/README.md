@@ -25,7 +25,6 @@ product only after all computations are complete.
 
 ## EVALUATION GUIDELINE
 
-[1] Check the operation using by verifying using an online matrix multiplier
-(eg: http://wims.unice.fr/wims/en_tool~linear~matmult.en.html).
-
-[2] Check the code to verify that multithreading is being used.
+1. Check the operation using by verifying using an online matrix multiplier
+(eg: http://wims.unice.fr/wims/en_tool~linear~matmult.en.html)
+2. Check the code to verify that multithreading is being used
