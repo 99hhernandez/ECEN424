@@ -17,33 +17,33 @@ public class main {
             System.out.println("Welcome to the Calculator designed by " + mycalc.getname() + ".");
             System.out.println("Enter A to Add, S to Subtract, M to Multiply, and Q to quit.");
 
-            try {
+            try {                                                                               // check user operation input is valid option
                 op = userInput.nextLine();
                 if((op.equals("A") || op.equals("S") || op.equals("M") || op.equals("Q"))) {
-                    if(op.equals("Q")) {                    // check if input == Q
-                        break;                              // exit loop if true
+                    if(op.equals("Q")) {                                                        // check if input == Q
+                        break;                                                                  // exit loop if true
                     } 
         
-                    try {                                   // check input arguments are float values
+                    try {                                                                       // check input arguments are float values
                         // ask user for both arguments
                         System.out.println("Enter argument 1: ");
                         A = Float.parseFloat(userInput.nextLine());
                         System.out.println("Enter argument 2: ");
                         B = Float.parseFloat(userInput.nextLine());
-                    } catch(NumberFormatException e) {                  // print to console for invalid input values
+                    } catch(NumberFormatException e) {                                          // print to console for invalid input values
                         System.out.println("Number entered is not a float.\n");
                     }
         
-                    switch(op) {                            // operation act based on user input
-                        case "A":                           // addition
+                    switch(op) {                                                                // operation act based on user input
+                        case "A":                                                               // addition
                             ans = mycalc.addition(A, B);
                             System.out.println("The sum of " + A + " and " + B + " is " + ans + "\n");
                             break;
-                        case "S":                           // subtraction
+                        case "S":                                                               // subtraction
                             ans = mycalc.subtraction(A, B);
                             System.out.println("The difference of " + A + " and " + B + " is " + ans + "\n");
                             break;
-                        case "M":                           // multiplication
+                        case "M":                                                               // multiplication
                             ans = mycalc.multiplication(A, B);
                             System.out.println("The product of " + A + " and " + B + " is " + ans + "\n");
                             break;
